@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/backgr.jpg");
+}
+body nav {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f1f1;
+}
+body nav ul {
+  padding: 1em 20em;
+  margin: 0;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body nav ul li {
+  list-style: none;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+body nav ul li a:hover {
+  color: saddlebrown;
+  font-weight: bold;
+  border-bottom: 2px solid saddlebrown;
+}
+body nav ul li a:focus {
+  color: saddlebrown;
+  border-bottom: 3px solid saddlebrown;
+}
+body header .logo {
+  display: block;
+  margin-bottom: -170px;
+}
+body header .Cojjiters {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 20px;
+  color: saddlebrown;
+}
+body header .Cojjiters::before {
+  content: "";
+  border-top: 5px solid saddlebrown;
+  width: 50%;
+  margin-left: 320px;
+  display: block;
+}
+body .coffer {
+  height: 200px;
+  width: 100%;
+}
+body .bloc {
+  background-color: aliceblue;
+}
+body .bloc p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: smaller;
+  color: sienna;
+}
+body hr {
+  border: 2px solid saddlebrown;
+}
+body .bloc1 p {
+  font-size: 18px;
+  font-family: cursive;
+  color: black;
+  font-weight: bold;
+}
+body .bloc1 img {
+  float: right;
+  margin-top: -280px;
+  width: 100%;
+  height: 320px;
+}
+body .services {
+  width: 100%;
+  height: 300px;
+}
+body .contact {
+  margin-top: 400px;
+}
+body .contact fieldset {
+  background-image: -webkit-linear-gradient(#16161d, saddlebrown);
+  padding: 1em 10em;
+  border: none;
+}
+body .contact fieldset legend {
+  font-size: 25px;
+  font-weight: bold;
+  color: sienna;
+}
+body .contact fieldset label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: sienna;
+}
+body .contact fieldset .mail {
+  margin-left: 500px;
+}
+body .contact fieldset .email {
+  display: block;
+  margin-left: 500px;
+  margin-top: -60px;
+}
+body .contact fieldset textarea {
+  background: transparent;
+  color: bisque;
+  outline: none;
+  width: 40%;
+  margin-left: 100px;
+}
+body .contact fieldset button {
+  background: transparent;
+  outline: none;
+  color: green;
+  font-weight: bold;
+}
+body .contact fieldset button:hover {
+  color: white;
+}
+body .nos-addresse {
+  display: block;
+  margin-top: 400px;
+}
+body .nos-addresse p {
+  color: white;
+  font-size: 20px;
+}
+body .livraison {
+  padding: 1em 20em;
+  display: block;
+  margin-top: 355px;
+}
+body .livraison fieldset {
+  width: 80%;
+  height: 570px;
+  -webkit-box-shadow: #16161d 8px 8px;
+          box-shadow: #16161d 8px 8px;
+  background-image: -webkit-linear-gradient(#16161d, saddlebrown);
+}
+body .livraison legend {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+body .livraison .nom {
+  padding: 5px 5em;
+  margin: 3em;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+body .livraison .adresse {
+  padding: 1em 5em;
+  margin: 0em;
+  font-size: 20px;
+  margin-left: 65px;
+}
+body .livraison .select {
+  padding: 5px 5em;
+  font-size: 20px;
+  margin: 1em;
+  margin-left: 100px;
+  outline: none;
+  border-radius: 20px;
+}
+body .livraison .commander {
+  padding: 5px 2em;
+  margin: 1em;
+  margin-left: 100px;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+body .livraison .annuler {
+  padding: 5px 3em;
+  margin: 1em;
+  margin-left: 100px;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+}
+body footer {
+  background-color: rgba(0, 0, 0, 0.644);
+  display: block;
+  height: 400px;
+  margin-top: 300px;
+}
+body footer .about {
+  display: block;
+  width: 500px;
+  margin-left: 120px;
+  font-family: Purisa;
+  color: whitesmoke;
+  border-bottom: 5px solid white;
+}
+body footer .cojjiters {
+  color: gray;
+  margin-left: 120px;
+}
+body footer .service {
+  display: block;
+  width: 500px;
+  margin-left: 700px;
+  margin-top: -335px;
+  font-family: Purisa;
+  color: white;
+}
+body footer ul li {
+  list-style: none;
+}
+body footer ul .food {
+  margin-left: 200px;
+  margin-top: -285px;
+}
+body footer ul .coffe {
+  border-style: dotted;
+}/*# sourceMappingURL=main.css.map */
